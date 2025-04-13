@@ -1,6 +1,6 @@
 # ⚽ Messi vs Ronaldo Stats Bot
 
-A simple chatbot-style Flask web app that answers questions about **Lionel Messi** and **Cristiano Ronaldo** — their stats, trophies, records, and career highlights. Used data from the website https://www.messivsronaldo.app/
+A simple chatbot-style Flask web app that answers questions about **Lionel Messi** and **Cristiano Ronaldo** — their stats, trophies, records, and career highlights. Used data from the [website](https://www.messivsronaldo.app/)
 
 ---
 
