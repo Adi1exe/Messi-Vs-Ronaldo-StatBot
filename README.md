@@ -67,3 +67,7 @@ messi-vs-ronaldo-bot/
 └── README.md
 
 ```
+## 👨‍💻 Author
+
+**Ronaldo Fan**  
+[GitHub](https://github.com/Adi1exe) | [LinkedIn]((https://www.linkedin.com/in/aditya-dolas-992a44265/))
