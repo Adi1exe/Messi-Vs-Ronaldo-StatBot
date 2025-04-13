@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - Messi Vs Ronaldo StatBot</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="/static/aboutstyle.css">
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <div class="logo-container">
+                <div class="logo">
+                    <i class="fas fa-futbol"></i>
+                </div>
+                <h1>Messi Vs Ronaldo StatBot</h1>
+            </div>
+            <div class="nav-links">
+                <a href="{{ url_for('index') }}" class="nav-link">Home</a>
+                <a href="{{ url_for('about') }}" class="nav-link active">About</a>
+                <button class="theme-toggle" id="theme-toggle">
+                    <i class="fas fa-moon"></i>
+                </button>
+            </div>
+        </nav>
+        
+        <div class="content-card">
+            <div class="about-content">
+                <h2 class="section-title">About the Project</h2>
+                
+                <div class="profile-section">
+                    <div class="profile-pic">
+                        <i class="fas fa-user"></i>
+                    </div>
+                    <h3 class="developer-name">Aditya Dolas</h3>
+                    <p class="developer-title">Full-Stack Developer</p>
+                    
+                    <div class="social-links">
+                        <a href="https://github.com/Adi1exe" target="_blank" class="social-btn github-btn">
+                            <i class="fab fa-github"></i> GitHub
+                        </a>
+                        <a href="https://www.linkedin.com/in/aditya-dolas-992a44265/" target="_blank" class="social-btn linkedin-btn">
+                            <i class="fab fa-linkedin"></i> LinkedIn
+                        </a>
+                    </div>
+                </div>
+                
+                <p class="about-text">
+                    The Messi Vs Ronaldo StatBot is an interactive web application designed to provide football fans with comprehensive statistics and insights about two of the greatest football players of all time: Lionel Messi and Cristiano Ronaldo.
+                </p>
+                
+                <p class="about-text">
+                    Using a conversational interface, users can ask questions about either player's career achievements, records, performance statistics, and receive instant, accurate responses backed by a comprehensive database of football statistics.
+                </p>
+                
+                <h3 class="section-title">Features</h3>
+                
+                <ul class="feature-list">
+                    <li class="feature-item">
+                        <div class="feature-icon">
+                            <i class="fas fa-brain"></i>
+                        </div>
+                        <div class="feature-text">
+                            <h4 class="feature-title">AI-Powered Conversations</h4>
+                            <p class="feature-desc">Ask questions in natural language about either player and get detailed, accurate responses.</p>
+                        </div>
+                    </li>
+                    <li class="feature-item">
+                        <div class="feature-icon">
+                            <i class="fas fa-database"></i>
+                        </div>
+                        <div class="feature-text">
+                            <h4 class="feature-title">Comprehensive Statistics</h4>
+                            <p class="feature-desc">Access detailed statistics spanning both players' entire careers, regularly updated with new data.</p>
+                        </div>
+                    </li>
+                    <li class="feature-item">
+                        <div class="feature-icon">
+                            <i class="fas fa-moon"></i>
+                        </div>
+                        <div class="feature-text">
+                            <h4 class="feature-title">Dark Mode Support</h4>
+                            <p class="feature-desc">Toggle between light and dark themes for comfortable viewing in any environment.</p>
+                        </div>
+                    </li>
+                    <li class="feature-item">
+                        <div class="feature-icon">
+                            <i class="fas fa-mobile-alt"></i>
+                        </div>
+                        <div class="feature-text">
+                            <h4 class="feature-title">Responsive Design</h4>
+                            <p class="feature-desc">Enjoy a seamless experience across desktop, tablet, and mobile devices.</p>
+                        </div>
+                    </li>
+                </ul>
+                
+                <h3 class="section-title">Technology Stack</h3>
+                <p class="about-text">
+                    This project was built using modern web technologies to ensure high performance, accessibility, and a great user experience:
+                </p>
+                
+                <div class="tech-stack">
+                    <span class="tech-badge">HTML5</span>
+                    <span class="tech-badge">CSS3</span>
+                    <span class="tech-badge">JavaScript</span>
+                    <span class="tech-badge">Python</span>
+                    <span class="tech-badge">Web-Scrapping via beautifulsoup</span>
+                    <span class="tech-badge">Natural Language Processing</span>
+                </div>
+                
+                <a href="{{ url_for('index') }}" class="back-link">
+                    <i class="fas fa-arrow-left"></i> Back to StatBot
+                </a>
+            </div>
+        </div>
+        
+        <footer>
+            &copy; Made by Aditya Dolas. All rights reserved.
+        </footer>
+    </div>
+
+    <script src="/static/aboutscript.js"></script>
+</body>
+</html>
