@@ -28,7 +28,7 @@ A simple chatbot-style Flask web app that answers questions about **Lionel Messi
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/messi-vs-ronaldo-bot.git
+git clone https://github.com/Adi1exe/messi-vs-ronaldo-bot.git
 cd messi-vs-ronaldo-bot
 ```
 ### 2. Install Dependencies
